@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    background-color: steelblue;
+    height: 80px;
+    width: 80%;
+}
+.barra .items{
+    list-style: none;
+    display: inline;
+    position: fixed;
+}
