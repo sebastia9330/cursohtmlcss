@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+    background-color: steelblue;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    position: fixed;
+    z-index: 20;
+    top: 10px;
+    left: 15px;
+        
+}
+.barra{
+   width: 100%;
+   position: relative;
+   top: 0;
+   left: 80px;
+   justify-content: center;
+   align-items: center;
+   z-index: 9;
+   background-color: steelblue;
+}
+.lista{
+    list-style: none;
+    display: flex;
+}
+.link a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+/*seccion inicio*/
+.seccion-inicio{
+    width: 100%;
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.titulo{
+    color: #000;
+    font-size: 100px;
+    text-transform: capitalize;
+    font-weight: 300px;
+}
+.tarjeta-cojin{
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    height: 90vh;
+    width: 30vw;
+}
+.cojin1-1{
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
